@@ -1,0 +1,103 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#bookHead {
+    margin-bottom: 40px;
+}
+
+#smt {
+    position: relative;
+    margin: auto;
+    width: 70vw;
+    height: 100vh;
+}
+
+#bookHead > button {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+#bookHead > button:hover {
+    background-color: crimson;
+}
+
+#formPopup{
+    display: none;
+    /* position: fixed; */
+    margin: auto;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    background-color: beige;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-bottom: 50px;
+}
+
+#titleInput, input {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.radioYes, .radioNo {
+    width: 10%;
+    height: 20px;
+}
+
+/* 
+#formPopup > .bookHeading {
+   
+} */
+
+.popButton {
+    margin-top: 15px;
+    width: 48%;
+    height: 30px;
+}
+
+input {
+    height: 25px;
+    border-radius: 2px;
+}
+
+.divCard {
+    width: 180px;
+    height: 220px;
+    border: solid black 3px;
+    padding: 5px;
+}
+
+.divCard > h1 {
+    font-size: 15px;
+}
+
+
+.divCard > button {
+    width: 45%;
+    height: 20px;
+}
+
+#divcard > h1 {
+    font-size: 15px;
+}
+
+#divcard > button {
+    height: 25px;
+    border-radius: 2px;
+}
+
+#divcard {
+    margin: auto;
+    text-align: center;
+    background-color: brown;
+    border-radius: 10px;
+}

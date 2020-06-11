@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library</title>
+        <link rel="stylesheet" href="bookstyle.css">
+    </head>
+    <body>
+        <div id="bookHead">
+            <h1>
+                Library
+            </h1>
+            <button id="newBtn">NEW BOOK</button>
+        </div>
+
+    <div id="formPopup">  
+        <form>
+            <h2>Add Your Book!</h2>
+            <label class="bookHeading"><strong>Title</strong></label>
+            <input id="bookTitle" class="bookInput"id="titleInput" type="text" placeholder="Your book title" required>
+            <label class="bookHeading"><strong>Author</strong></label>
+            <input id="bookAuthor" class="bookInput" type="text" placeholder="Your book Author" required>
+            <label class="bookHeading"><strong>Pages</strong></label>
+            <input id="bookPage" class="bookInput" type="number" placeholder="Your book pages" required>
+            <label class="bookHeading"><strong>Read the book?</strong></label>
+            <input id="radioYes" name="YN" class="radioYes"  type="button">
+            <label><strong>Yes</strong></label>
+            <input id="radioNo" name="YN" class="radioNo" type="button">
+            <label ><strong>No</strong></label>
+            <button id="bookButton" class="popButton" type="button">Add</button>
+            <button id="cancelBtn" class="popButton" type="button">Cancel</button>
+        </form>      
+    </div>
+
+    <div id="smt">
+        <div id="divcard" class="divCard">
+            <h1>Title</h1>
+            <p>Author</p>
+            <p>Pages</p>
+            <div>
+                <p>Status</p>
+                <button>Check</button>
+                <button>Delete</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="bookjs.js"></script>
+    </body>
+</html>
